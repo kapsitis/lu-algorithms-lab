@@ -3,3 +3,4 @@ project/target
 target
 *.class
 *.log
+src/main/scala/lv/rbs/ds/lab03/KMPmatcherSecret.scala

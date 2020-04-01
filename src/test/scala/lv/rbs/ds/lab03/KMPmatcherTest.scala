@@ -99,4 +99,14 @@ class KMPmatcherTest extends FlatSpec with Matchers {
     resultSteps(6)("end") should be("6")
     resultSteps(6)("match") should be("true")
   }
+
+  it should "return all the right steps" in {
+    val expected = List(
+      (0, 0, 3, 0), (3, 0, 0, 0), (4, 0, 6, 0),
+      (8, 0, 2, 0), (10, 0, 0, 0), (11, 0, 6, 0),
+      (15, 2, 6, 1), (16, 0, 0, 0)
+    )
+    expected.filter(quadruplet => quadruplet._4 == 1).map(quadruplet => quadruplet._1)
+  }
+
 }
