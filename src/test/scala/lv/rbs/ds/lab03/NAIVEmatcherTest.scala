@@ -36,7 +36,7 @@ class NAIVEmatcherTest extends FlatSpec with Matchers {
   it should "return sufficiently long JSON" in {
     val matcher = new NAIVEmatcher("ABCDABD")
     val result = matcher.toJson("ABC ABCDAB ABCDABCDABDE")
-    reflect.io.File("src/test/resources/sample02-naive.json").writeAll(result)
+    //reflect.io.File("src/test/resources/sample01-naive.json").writeAll(result)
     result.length should be > 1000
   }
 
