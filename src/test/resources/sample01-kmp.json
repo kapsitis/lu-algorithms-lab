@@ -1,0 +1,18 @@
+{
+    "algorithm": "KMP",
+	"pattern": "ABCDABD",
+	"text": "ABC ABCDAB ABCDABCDABDE",
+	"prefixFun": [[0,-1],[1,0],[2,0],[3,0],[4,0],[5,1],[6,2],[7,0]],
+	"steps": [
+	    { "offset": 0, "start": 0, "end": 3 },
+	    { "offset": 3, "start": 0, "end": 0 },
+	    { "offset": 4, "start": 0, "end": 6 },
+	    { "offset": 8, "start": 2, "end": 2 },
+	    { "offset": 10, "start": 0, "end": 0 },
+	    { "offset": 11, "start": 0, "end": 6 },
+	    { "offset": 15, "start": 2, "end": 6, "match": "true" },   
+	    { "offset": 22, "start": 0, "end": 0 }
+    ]
+    "comparisons": 27 
+}
+

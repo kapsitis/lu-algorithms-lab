@@ -1,0 +1,15 @@
+{
+    "algorithm": "BM",
+	"pattern": "ABCDABD",
+	"text": "ABC ABCDAB ABCDABCDABDE",
+	"goodSuffixFun": [[0,-7],[1,-6],[2,-5],[3,-4],[4,-3],[5,2],[6,5]],
+	"badCharFun": [["A",4],["B",5],["C",2],["D",6]],	
+	"steps": [ 
+	    { "offset": 0, "start": 6, "end": 6 },
+	    { "offset": 4, "start": 6, "end": 6 },
+	    { "offset": 11, "start": 6, "end": 6 },
+	    { "offset": 15, "start": 6, "end": 0, "match": "true" }    
+	],
+    "comparisons": 10
+}
+

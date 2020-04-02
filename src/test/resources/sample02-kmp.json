@@ -1,0 +1,14 @@
+{
+    "algorithm": "KMP",
+	"pattern": "ABABACA",
+	"text": "ABABAABABACA",
+	"prefixFun": [[0,-1],[1,0],[2,0],[3,1],[4,2],[5,3],[6,0],[7,1]],
+	"steps": [ 
+	    { "offset": 0, "start": 0, "end": 5 },
+	    { "offset": 2, "start": 3, "end": 3 },
+	    { "offset": 4, "start": 2, "end": 2 },
+	    { "offset": 5, "start": 0, "end": 7 }	    
+    ],
+    "comparisons": 16
+    "matches": [5]
+}

@@ -10,7 +10,7 @@ class KMPpublicTest  extends FunSuite {
 
   test("Prefix function for aabaab") {
     val matcher = new KMPmatcherSecret("aabaab")
-    assert(matcher.getPrefixFun().toList === List(-1,0,1,0,1,2,0))
+    assert(matcher.getPrefixFun().toList === List(-1,0,1,0,1,2,3))
   }
 
 
