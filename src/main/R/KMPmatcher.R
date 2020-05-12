@@ -89,4 +89,5 @@ prefixFun <- function(pattern) {
 prefixFun("ababaca")
 
 
-
+## students <- c("Annija", "Antons", "Arturs", "Boriss", "Bruno", "Edgars", "Elizabete", "Jekabs", "Jevgenija", "Karlis", "Klinta Madara", "Krisjanis", "Martins", "Niklavs", "Reinis", "Roberts", "Roze", "Vladislavs")
+students <- c("Klinta Madara", "Reinis", "Roberts", "Roze")
